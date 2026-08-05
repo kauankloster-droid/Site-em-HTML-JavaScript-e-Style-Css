@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#f3f3f3;
+    color:#222;
+    transition:.3s;
+
+}
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:#0078d7;
+    color:white;
+
+    padding:20px 40px;
+}
+
+#tema{
+
+    border:none;
+    cursor:pointer;
+
+    font-size:22px;
+
+    background:white;
+
+    padding:8px 12px;
+
+    border-radius:8px;
+}
+
+.banner{
+
+    background:#0e639c;
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+}
+
+main{
+
+    display:flex;
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+
+    padding:30px;
+}
+
+.card{
+
+    width:300px;
+
+    background:white;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card img{
+
+    width:90px;
+
+    margin-bottom:15px;
+}
+
+.card h2{
+
+    margin-bottom:10px;
+}
+
+.card p{
+
+    margin-bottom:20px;
+}
+
+.ver{
+
+    background:#0078d7;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+}
+
+.reacoes{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:12px;
+
+    margin-top:20px;
+}
+
+.reacoes button{
+
+    border:none;
+
+    background:#ececec;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.like:hover{
+
+    background:#cce6ff;
+}
+
+.love:hover{
+
+    background:#ffd4e3;
+}
+
+.dark{
+
+    background:#1e1e1e;
+
+    color:white;
+}
+
+.dark header{
+
+    background:#111;
+}
+
+.dark .banner{
+
+    background:#252526;
+}
+
+.dark .card{
+
+    background:#2d2d30;
+
+    color:white;
+}
+
+.dark .ver{
+
+    background:#0e639c;
+}
+
+.dark .reacoes button{
+
+    background:#3c3c3c;
+
+    color:white;
+}
+
+.dark .like:hover{
+
+    background:#0e639c;
+}
+
+.dark .love:hover{
+
+    background:#c586c0;
+}
